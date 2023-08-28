@@ -1,0 +1,48 @@
+body{
+    width: 300px;
+    border: 10px;
+     display: flex;
+   flex-wrap: wrap;
+   /* box-shadow: 5px 10px #6860ac; */
+} 
+
+.outer{
+    /* outline: 1px solid black;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 1px; */
+    border: 2px solid black;
+}
+
+.inner{
+    outline: 1px solid black;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 1px;
+    margin: 20px;
+}
+ h3{
+    font-style: italic;
+    margin: 20px;
+ }
+
+ img {
+      margin: 20px;
+      width: 300px;
+ }
+
+ p{
+    margin: 20px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+ }
+ ul{
+    list-style: none;
+ }
+
+li span{
+    
+    color: rgb(5, 5, 10);
+    /* margin: 5px; */
+  font-weight: bold;
+}
